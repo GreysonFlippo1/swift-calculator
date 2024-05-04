@@ -147,10 +147,10 @@ struct ContentView: View {
             Grid(alignment: .center) {
                 GridRow {
                     Text(String(calcFunctions.storedValue))
-                        .frame(width: .infinity, height: 150)
+                        .frame(height: 150)
                         .font(.system(size: 30, weight: .regular, design: .monospaced))
                     Text(String(calcFunctions.operatorChar))
-                        .frame(width: .infinity, height: 150)
+                        .frame(height: 150)
                         .font(.system(size: 30, weight: .regular, design: .monospaced))
                         .foregroundStyle(Color(red: 1, green: 0.6, blue: 0.1))
                 }
@@ -158,7 +158,7 @@ struct ContentView: View {
             Grid(alignment: .center) {
                 GridRow {
                     Text(String(calcFunctions.inputValue))
-                        .frame(width: .infinity, height: 150)
+                        .frame(height: 150)
                         .font(.system(size: 80, weight: .regular, design: .monospaced))
                         .foregroundStyle(Color(red: 1, green: 0.6, blue: 0.1))
                 }

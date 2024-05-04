@@ -126,7 +126,7 @@ struct ExtraButton: ButtonStyle {
 struct ZeroButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .frame(width: 170, height: 80, alignment: .center)
+            .frame(width: 168, height: 80, alignment: .center)
             .background(
                 configuration.isPressed
                 ? Color(red: 0.7, green: 0.7, blue: 0.7)

@@ -243,7 +243,6 @@ struct ContentView: View {
                         Text("0")
                     }
                     .buttonStyle(ZeroButton())
-//                    Text("") // placeholder for now to keep grid aligned
                     Button(action: calcFunctions.AddDecimal) {
                         Text(".")
                     }
